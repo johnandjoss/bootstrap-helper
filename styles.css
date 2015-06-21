@@ -10,3 +10,7 @@ body {
 .address {
   display: inline;
 }
+
+.img-responsive {
+  margin-bottom:5px;
+}
