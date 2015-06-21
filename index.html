@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#my-navbar">
     <!-- Navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
       <div class="container">
@@ -303,10 +303,10 @@
         <div class="col-lg-4">
           <p>Send us a message, or contact us from teh address below</p>
           <address>
-            <strong>Your business name:</strong>
-            <span>1234 fake road place</span>
-            <span>Suite 0909</span>
-            <span>Portland, OR 93120</span>
+            <span class="address"><strong>Your business name:</strong></span><br>
+            <span class="address">1234 fake road place</span><br>
+            <span class="address">Suite 0909</span><br>
+            <span class="address">Portland, OR 93120</span><br>
           </address>
         </div>
 
@@ -337,6 +337,42 @@
       </div><!-- end of contact row -->
     </section>
   </div>
+
+<!-- footer -->
+
+  <footer>
+    <hr>
+      <div class="container text-center">
+        <h3>Subscribe for Free stuff</h3>
+        <p>Entert your name and email</p>
+
+        <form action="" class="form-inline">
+
+          <div class="form-group">
+          <lable for="subscription">Subscribe</label>
+            <input type="text" class="form-control" id="subscription" placeholder="your name">
+          </div>
+
+          <div class="form-group">
+          <lable for="email">Your email</label>
+            <input type="text" class="form-control" id="email" placeholder="your email">
+          </div>
+
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+
+        <hr>
+
+        <ul class="list-inline">
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Youtube</a></li>
+        </ul>
+        <p>&copy; Copyright 2015</p>
+
+    </div><!-- end of footer main container -->
+  </footer>
+
 
 <!-- Latest compiled and minified JavaScript/jquery links -->
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
